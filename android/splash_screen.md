@@ -8,7 +8,9 @@ Android splash screen are normally used to show user some kind of progress befor
 An android studio plugin called `Android Drawable Importer` lets you create these easily.
 See [this](http://stackoverflow.com/questions/19196616/is-there-a-way-to-create-xxhdpi-xhdpi-hdpi-mdpi-and-ldpi-drawables-from-a-lar).
 
-*While searching about splash screens, I came across a term `9-patch-image`. It seems that it solves the problem of different screen densities, but I couldn't get it working :(.*
+**Create mutiple images of `landing_page.png` each corresponding to a particular pixel density using Android Drawable Importer and save it in `res/drawable/`**
+
+> *While searching about splash screens, I came across a term `9-patch-image`. It seems that it solves the problem of different screen densities, but I couldn't get it working :(.*
 
 **Now let's get into splash screen code!**
 - Create an Activity, say `SplashScreenActivity`
