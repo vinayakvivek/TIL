@@ -12,7 +12,8 @@ See [this](http://stackoverflow.com/questions/19196616/is-there-a-way-to-create-
 
 **Now let's get into splash screen code!**
 - Create an Activity, say `SplashScreenActivity`
-    ```
+
+    ```java
     public class SplashScreenActivity extends AppCompatActivity {
 
     	/** Duration of wait **/
@@ -34,11 +35,13 @@ See [this](http://stackoverflow.com/questions/19196616/is-there-a-way-to-create-
     			}
 		    }, SPLASH_DISPLAY_LENGTH);
 	    }
-    }```
+    }
+    ```
     
 - In res/drawables, create a resource file `background_splash.xml`
     *(replace `@drawable/landing_page` with `@drawable/<splash_screen_image_name>`)*
-    ```
+    
+    ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
         <item
@@ -50,22 +53,24 @@ See [this](http://stackoverflow.com/questions/19196616/is-there-a-way-to-create-
         </item>
     </layer-list>
     ```
-- Create a new theme in res/values/styles.xml, say `SplashTheme`
+- Create a new theme in res/values/styles.xml, say `SplashTheme`.
+
+    ```xml
+	<!-- Splash screen theme -->
+	<style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+	    <item name="android:windowBackground">@drawable/background_splash</item>
+	</style>
     ```
-    <!-- Splash screen theme -->
-        <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
-            <item name="android:windowBackground">@drawable/background_splash</item>
-        </style>
-    ```
-- Finally, add this theme to SplashScreenActivity in `AndroidManifest.xml` file
-    ```
-    <activity
-            android:name=".SplashScreenActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/SplashTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
+- Finally, add this theme to SplashScreenActivity in `AndroidManifest.xml` file.
+
+    ```xml
+	<activity
+	    android:name=".SplashScreenActivity"
+	    android:screenOrientation="portrait"
+	    android:theme="@style/SplashTheme">
+	    <intent-filter>
+			<action android:name="android.intent.action.MAIN"/>
+			<category android:name="android.intent.category.LAUNCHER"/>
+	    </intent-filter>
+	</activity>
     ```
