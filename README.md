@@ -11,3 +11,4 @@ Collection of small write-ups. Things that I learned while trying out different 
   
 #### `Unix`
   - [crontab](https://github.com/vinayakvivek/TIL/blob/master/unix/crontabs.md#execute-a-script-periodically-using-cron)
+  - [tmux](https://github.com/vinayakvivek/TIL/blob/master/unix/tmux.md#tmux---terminal-multiplexer)
