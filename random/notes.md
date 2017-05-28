@@ -1,0 +1,1 @@
+- On macOS, android emulator crashes while opening, if `docker` is running in background. [[source]](https://stackoverflow.com/a/43022400)
