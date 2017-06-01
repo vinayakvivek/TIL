@@ -5,6 +5,7 @@
   - [A tmux crash course](https://robots.thoughtbot.com/a-tmux-crash-course)
   - [A good tmux cheat-sheet](https://gist.github.com/MohamedAlaa/2961058)
 
+### A script to customize `tmux` :
 ```bash
 tmux new -s setup
 
