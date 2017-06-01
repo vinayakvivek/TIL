@@ -45,7 +45,7 @@ run '~/.tmux/plugins/tpm/tpm'
 
 # set -g @themepack 'powerline/block/blue'
 # set -g @themepack 'powerline/double/magenta'
-set -g @themepack 'powerline/double/green'" >> ~/.tmux.conf
+set -g @themepack 'powerline/double/green'" > ~/.tmux.conf
 
 # source the conf file
 tmux source-file ~/.tmux.conf
