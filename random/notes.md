@@ -1,2 +1,3 @@
 - On macOS, android emulator crashes while opening, if `docker` is running in background. [[source]](https://stackoverflow.com/a/43022400)
 - In Github's GraphQL API v4, for `createProject` mutation, `ownerId` refers to the owner of the project, which can be either a repository or an organization. `creator`, however, is the person who created the project, and is automatically set. [[source]](https://platform.github.community/t/createproject-mutation-not-working/1010/3?u=appucrossroads)
+- To render a javascript `template literal` on html, set the css property, **`white-space: pre`**. 
