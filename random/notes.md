@@ -2,3 +2,4 @@
 - In Github's GraphQL API v4, for `createProject` mutation, `ownerId` refers to the owner of the project, which can be either a repository or an organization. `creator`, however, is the person who created the project, and is automatically set. [[source]](https://platform.github.community/t/createproject-mutation-not-working/1010/3?u=appucrossroads)
 - To render a javascript `template literal` on html, set the css property, **`white-space: pre`**. 
 - [Django] `model_to_dict()` ignores fields with `editable=False` and `auto_now_add=True` automatically sets `editable=False` so timestamp field will be ignored.[[source]](https://www.metaltoad.com/blog/what-i-learned-today-django-modeltodict-and-missing-fields) 
+- [LaTeX] use `changepage` package for adjusting margins, `\begin{adjustwidth}{<left-margin>}{<right-margin>}`.
