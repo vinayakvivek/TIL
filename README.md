@@ -5,6 +5,7 @@ Collection of small write-ups. Things that I learned while trying out different 
 
 #### `Android`
   - [Splash screen](https://github.com/vinayakvivek/TIL/blob/master/android/splash_screen.md)
+  - [Requesting Permissions](https://github.com/vinayakvivek/TIL/blob/master/android/request_permission.md#requesting-permissions)
   
 #### `Python`
   - [Github API](https://github.com/vinayakvivek/TIL/blob/master/python/update_file_using_github_api.md#update-file-using-github-api)
