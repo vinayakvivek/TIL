@@ -4,3 +4,4 @@
 - [Django] `model_to_dict()` ignores fields with `editable=False` and `auto_now_add=True` automatically sets `editable=False` so timestamp field will be ignored.[[source]](https://www.metaltoad.com/blog/what-i-learned-today-django-modeltodict-and-missing-fields) 
 - [LaTeX] use `changepage` package for adjusting margins, `\begin{adjustwidth}{<left-margin>}{<right-margin>}`.
 - [C++] to print a `std::string` using `printf`, do `printf("%s\n", <string>.c_str())`.[[source]](https://stackoverflow.com/a/10865967)
+- Photoshop `Variable` and `DataSets`.[[source]](https://www.youtube.com/watch?v=kJdWRMF7CR4)
