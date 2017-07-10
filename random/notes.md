@@ -5,3 +5,5 @@
 - [LaTeX] use `changepage` package for adjusting margins, `\begin{adjustwidth}{<left-margin>}{<right-margin>}`.
 - [C++] to print a `std::string` using `printf`, do `printf("%s\n", <string>.c_str())`.[[source]](https://stackoverflow.com/a/10865967)
 - Photoshop `Variable` and `DataSets`.[[source]](https://www.youtube.com/watch?v=kJdWRMF7CR4)
+- [Google Sheets] Use `=IMAGE(<image_url>)` to display image in a cell.
+- [Google Sheets/Drive] to display an image in drive in a cell, use the `image_url` as `"https://drive.google.com/uc?export=view&id=" + file.getId()`.[[source]](https://stackoverflow.com/a/30630805) 
