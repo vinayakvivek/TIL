@@ -7,3 +7,4 @@
 - Photoshop `Variable` and `DataSets`.[[source]](https://www.youtube.com/watch?v=kJdWRMF7CR4)
 - [Google Sheets] Use `=IMAGE(<image_url>)` to display image in a cell.
 - [Google Sheets/Drive] to display an image in drive in a cell, use the `image_url` as `"https://drive.google.com/uc?export=view&id=" + file.getId()`.[[source]](https://stackoverflow.com/a/30630805) 
+- [android] in API 23+, get permissions at runtime for reading/writing files from external storage. (`BitmapFactory.decodeFile(picturePath)` will return `null` otherwise)
