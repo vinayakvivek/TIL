@@ -17,3 +17,6 @@ Collection of small write-ups. Things that I learned while trying out different 
 #### `Deep Learning`
   - [pytorch checkpoints](https://github.com/vinayakvivek/TIL/blob/master/deep-learning/pytorch-save-load.md#saving-and-loading-a-model-in-pytorch)
   - [ResNet](https://github.com/vinayakvivek/TIL/blob/master/deep-learning/resnet-pytorch.md#deep-residual-network-using-pytorch)
+  
+#### `Computer Graphics`
+  - [sphere UV-mapping](https://github.com/vinayakvivek/TIL/blob/master/computer-graphics/sphere-UV-mapping.md#uv-mapping-a-sphere-for-finding-texture-coordinates)
