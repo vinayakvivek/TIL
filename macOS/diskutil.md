@@ -6,3 +6,7 @@
   ```bash
   diskutil eraseDisk FAT32 NAME MBRFormat /dev/disk1
   ```
+- To remove an APFS container
+  ```bash
+  diskutil apfs deleteContainer <disk_location(/dev/*)>
+  ```
