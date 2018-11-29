@@ -1,10 +1,11 @@
-- On macOS, android emulator crashes while opening, if `docker` is running in background. [[source]](https://stackoverflow.com/a/43022400)
-- In Github's GraphQL API v4, for `createProject` mutation, `ownerId` refers to the owner of the project, which can be either a repository or an organization. `creator`, however, is the person who created the project, and is automatically set. [[source]](https://platform.github.community/t/createproject-mutation-not-working/1010/3?u=appucrossroads)
-- To render a javascript `template literal` on html, set the css property, **`white-space: pre`**. 
-- [Django] `model_to_dict()` ignores fields with `editable=False` and `auto_now_add=True` automatically sets `editable=False` so timestamp field will be ignored.[[source]](https://www.metaltoad.com/blog/what-i-learned-today-django-modeltodict-and-missing-fields) 
-- [LaTeX] use `changepage` package for adjusting margins, `\begin{adjustwidth}{<left-margin>}{<right-margin>}`.
-- [C++] to print a `std::string` using `printf`, do `printf("%s\n", <string>.c_str())`.[[source]](https://stackoverflow.com/a/10865967)
+- **[MacOS]** On macOS, android emulator crashes while opening, if `docker` is running in background. [[source]](https://stackoverflow.com/a/43022400)
+- **[Github]** In Github's GraphQL API v4, for `createProject` mutation, `ownerId` refers to the owner of the project, which can be either a repository or an organization. `creator`, however, is the person who created the project, and is automatically set. [[source]](https://platform.github.community/t/createproject-mutation-not-working/1010/3?u=appucrossroads)
+- **[Javascript]** To render a javascript `template literal` on html, set the css property, **`white-space: pre`**. 
+- **[Django]** `model_to_dict()` ignores fields with `editable=False` and `auto_now_add=True` automatically sets `editable=False` so timestamp field will be ignored.[[source]](https://www.metaltoad.com/blog/what-i-learned-today-django-modeltodict-and-missing-fields) 
+- **[LaTeX]** use `changepage` package for adjusting margins, `\begin{adjustwidth}{<left-margin>}{<right-margin>}`.
+- **[C++]** to print a `std::string` using `printf`, do `printf("%s\n", <string>.c_str())`.[[source]](https://stackoverflow.com/a/10865967)
 - Photoshop `Variable` and `DataSets`.[[source]](https://www.youtube.com/watch?v=kJdWRMF7CR4)
-- [Google Sheets] Use `=IMAGE(<image_url>)` to display image in a cell.
-- [Google Sheets/Drive] to display an image in drive in a cell, use the `image_url` as `"https://drive.google.com/uc?export=view&id=" + file.getId()`.[[source]](https://stackoverflow.com/a/30630805) 
-- [android] in API 23+, get permissions at runtime for reading/writing files from external storage. (`BitmapFactory.decodeFile(picturePath)` will return `null` otherwise)
+- **[Google Sheets]** Use `=IMAGE(<image_url>)` to display image in a cell.
+- **[Google Sheets/Drive]** to display an image in drive in a cell, use the `image_url` as `"https://drive.google.com/uc?export=view&id=" + file.getId()`.[[source]](https://stackoverflow.com/a/30630805) 
+- **[Android]** in API 23+, get permissions at runtime for reading/writing files from external storage. (`BitmapFactory.decodeFile(picturePath)` will return `null` otherwise)
+- **[Javscript]** why `Java`script: When JavaScript was created, it initially had another name: “LiveScript”. But Java language was very popular at that time, so it was decided that positioning a new language as a “younger brother” of Java would help. [[source]](https://javascript.info/intro)
